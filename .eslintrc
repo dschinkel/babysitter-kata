@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "airbnb-base"
+  ],
+  "parser": "babel-eslint",
+  "env": {"mocha": true},
+  "rules": {"comma-dangle": ["error", "never"],
+    "complexity": ["error", {"max": 4}],
+    "handle-callback-err": "error",
+    "import/default": "off",
+    "import/order": ["error", {"newlines-between": "always"}],
+    "max-statements": ["error", 30],
+    "no-console": "off",
+    "no-constant-condition": "error",
+    "no-param-reassign": ["error", {"props": false}],
+    "no-process-exit": "error",
+    "no-useless-call": "error",
+    "react/prefer-stateless-function": [0, { "ignorePureComponents": true }],
+    "react/no-multi-comp": [0, { "ignoreStateless": true }],
+    "react/require-optimization": "off",
+    "semi": ["error", "always"]
+  }
+}
