@@ -7,7 +7,7 @@ need anything fancy but just babel and ability to run tests and run JS and Node
 #### Configured for:
  - **Babel 7**
  - **Mocha**
- - **Jest**
+ - **Jest** (_coming soon_)
  - **eslint** - [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base) (for projects without React) & my own custom tweaks
    - For initial package.json setup, you can run `npx install-peerdeps --dev eslint-config-airbnb-base` to install all of peer dependencies needed for `eslint-config-airbnb-base`
      - *OR* install each peer dependency manually by running npm info "eslint-config-airbnb-base@latest" peerDependencies to list the peer dependencies and versions, then run yarn add --dev <dependency>@<version> for each listed peer dependency
