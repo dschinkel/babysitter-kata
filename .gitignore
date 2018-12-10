@@ -6,3 +6,4 @@ node_modules
 .vscode
 *.tar
 package-lock.json
+yarn.lock
