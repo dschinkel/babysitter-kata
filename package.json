@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dschinkel/enzyme-koans.git"
+    "url": "git+https://github.com/dschinkel/nodejs-kata-scaffolding.git"
   },
   "author": "Dave Schinkel",
   "license": "",
