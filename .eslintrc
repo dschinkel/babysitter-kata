@@ -20,7 +20,7 @@
     "no-use-before-define": "off",
     "semi": ["error", "always"],
     "padded-blocks": "off",
-    "max-len": ["error", { "code": 80 }],
+    "max-len": ["error", { "code": 100 }],
     "indent": 2,
     "quotes": "off",
     "one-var": "off"
