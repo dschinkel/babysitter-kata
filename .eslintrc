@@ -15,6 +15,7 @@
     "no-param-reassign": ["error", {"props": false}],
     "no-process-exit": "error",
     "no-useless-call": "error",
-    "semi": ["error", "always"]
+    "semi": ["error", "always"],
+    "padded-blocks": "off"
   }
 }
