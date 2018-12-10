@@ -3,7 +3,7 @@
 Use this to start a project very quickly such as a kata where you do not
 need anything fancy but just babel and ability to run tests and run JS and Node
 
-Note: I do plan on keeping this _fairly_ up-to-date with the the current version of Babel.  Currently it's version 7.
+Note: I do plan on keeping this _fairly_ up-to-date with the the current version of Babel, mocha, and Jest.  Currently Babel is version 7.
 
 # Contents
 #### Configured for:
