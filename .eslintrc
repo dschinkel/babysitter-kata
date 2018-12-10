@@ -16,6 +16,8 @@
     "no-process-exit": "error",
     "no-useless-call": "error",
     "semi": ["error", "always"],
-    "padded-blocks": "off"
+    "padded-blocks": "off",
+    "max-len": ["error", { "code": 80 }],
+    "indent": ["error", 2]
   }
 }
