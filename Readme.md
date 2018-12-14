@@ -17,7 +17,7 @@ The babysitter:
 - gets paid for full hours (no fractional hours)
 
 ## Technical Constraints
-- You cannot use an object.  Must use strings or integers
+- You cannot use any type objects.  Must use strings or integers
 # Tests
 
 To run from command-line: yarn mocha-test
