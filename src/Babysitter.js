@@ -28,8 +28,6 @@ function payoutFromStartToBed(bedtime, departureTime, startTime) {
   return Math.abs(bedtime - startTime) * 12;
 }
 
-
-
 function payoutFromBedToMidnight(departureTime, bedtime, payFromBedToMidnight) {
   let payout = 0;
 
