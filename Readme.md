@@ -9,13 +9,15 @@ This kata simulates a babysitter working and getting paid for one night.
 In order to get paid for 1 night of work<br>
 I want to calculate my nightly charge<br>*
 
-## Old Requirements:
+## Requirements:
 The babysitter:
 - gets paid $12/hour from start-time to bedtime
 - gets paid $8/hour from child's bedtime to midnight
 - gets paid $16/hour from midnight to end of job
 - gets paid for full hours (no fractional hours)
 
+## Technical Constraints
+- You cannot use an object.  Must use strings or integers
 # Tests
 
 To run from command-line: yarn mocha-test

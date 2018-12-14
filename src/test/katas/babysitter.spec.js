@@ -1,8 +1,3 @@
-// no validation - start time earlier than 5pm
-// string, int
-// 1-4 am
-// start time, departure time, bed time
-
 import Babysitter from '../../Babysitter';
 let babysitter;
 
