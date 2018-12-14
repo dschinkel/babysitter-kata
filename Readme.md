@@ -1,14 +1,6 @@
 
 # babysitter_kata
 
-Thanks for reviewing my kata.
-
-# Run instructions:
-Clone the repository using 'git clone'.<br>
-Verify you are using python 3.6.  For convenience, you may want to install nosetest (pip install nose).<br>
-From the 'src' directory, run 'nosetests' and it will run all the tests.<br>
-If you don't have nose, you may run tests with 'python babysitter_test.py' and 'python calculator_test.py'<br>
-
 ## Background
 This kata simulates a babysitter working and getting paid for one night.  The rules are pretty straight forward.
 
