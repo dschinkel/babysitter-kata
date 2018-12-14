@@ -1,18 +1,30 @@
 
-# NodeJS Kata Scaffolding
-Use this to start a project very quickly such as a kata where you do not
-need anything fancy but just babel and ability to run tests and run JS and Node
+# babysitter_kata
 
-Note: I do plan on keeping this _fairly_ up-to-date with the the current version of Babel, mocha, and Jest.  Currently Babel is version 7.
+Thanks for reviewing my kata.
 
-# Contents
-#### Configured for:
- - **Babel 7**
- - **Mocha**
- - **Jest** (_coming soon_)
- - **eslint** - [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base) (for projects without React) & my own custom tweaks
-   - For initial package.json setup, you can run `npx install-peerdeps --dev eslint-config-airbnb-base` to install all of peer dependencies needed for `eslint-config-airbnb-base`
-     - *OR* install each peer dependency manually by running npm info "eslint-config-airbnb-base@latest" peerDependencies to list the peer dependencies and versions, then run yarn add --dev <dependency>@<version> for each listed peer dependency
+# Run instructions:
+Clone the repository using 'git clone'.<br>
+Verify you are using python 3.6.  For convenience, you may want to install nosetest (pip install nose).<br>
+From the 'src' directory, run 'nosetests' and it will run all the tests.<br>
+If you don't have nose, you may run tests with 'python babysitter_test.py' and 'python calculator_test.py'<br>
+
+## Background
+This kata simulates a babysitter working and getting paid for one night.  The rules are pretty straight forward.
+
+## Feature
+*As a babysitter<br>
+In order to get paid for 1 night of work<br>
+I want to calculate my nightly charge<br>*
+
+## Old Requirements:
+The babysitter:
+- starts no earlier than 5:00PM
+- leaves no later than 4:00AM
+- gets paid $12/hour from start-time to bedtime
+- gets paid $8/hour from bedtime to midnight
+- gets paid $16/hour from midnight to end of job
+- gets paid for full hours (no fractional hours)
 
 # Tests
 
