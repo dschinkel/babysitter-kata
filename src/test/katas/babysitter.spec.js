@@ -3,7 +3,7 @@
 // 1-4 am
 // start time, departure time, bed time
 
-import Babysitter from '../Babysitter';
+import Babysitter from '../../Babysitter';
 let babysitter;
 
 beforeEach(() => {
