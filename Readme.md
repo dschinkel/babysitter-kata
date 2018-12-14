@@ -2,7 +2,7 @@
 # babysitter_kata
 
 ## Background
-This kata simulates a babysitter working and getting paid for one night.  The rules are pretty straight forward.
+This kata simulates a babysitter working and getting paid for one night.
 
 ## Feature
 *As a babysitter<br>
