@@ -2,7 +2,7 @@
 function Babysitter() {
 
   function start(startTime, departureTime, bedtime) {
-    const payFromStartToBed = payoutFromStartToBed(bedtime, departureTime, startTime),
+    const payFromStartToBed = payoutFromStartToBed(bedtime, startTime),
       payFromBedToMidnight = payoutFromBedToMidnight(departureTime, bedtime),
       payFromMidnightToDeparture = payoutFromMidnightToDeparture(departureTime);
 
@@ -24,11 +24,11 @@ function payoutFromMidnightToDeparture(departureTime) {
   return payout;
 }
 
-function payoutFromStartToBed(bedtime, departureTime, startTime) {
+function payoutFromStartToBed(bedtime, startTime) {
   return Math.abs(bedtime - startTime) * 12;
 }
 
-function payoutFromBedToMidnight(departureTime, bedtime, payFromBedToMidnight) {
+function payoutFromBedToMidnight(departureTime, bedtime) {
   let payout = 0;
 
   if (departureTime >= 1 && departureTime <= 4 ) {
